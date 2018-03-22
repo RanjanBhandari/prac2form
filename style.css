@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Areal';
+  background: url('1.png');
+  background-repeat: no-repeat;
+}
+.wrap {
+  width: 410px;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 25px;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 9px
+}
+
+.wrap h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  border: 1px solid silver;
+  border-radius: 9px;
+  background-color: #091972;
+  color:#ffffff;
+  height:30px;
+  padding: 3px;
+
+}
+
+.wrap input {
+  width: 400px;
+  height: 35px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  border: 2px solid silver;
+  padding: 5px;
+}
+
+.btn-login {
+  padding: 5px;
+  width: 205px;
+  line-height: 30px;
+  color: #fff;
+  border-radius: 7px;
+  border: none;
+  font-size: 17px;
+  display: block;
+  margin:auto;
+  position: relative;
+  background-color: #1656bc;
+
+}
+.btn-login:hover{
+  background-color:#03085e;
+}
+
+
+#number {
+  background-image: url("https://use.fontawesome.com/releases/v5.0.8/svgs/solid/address-book.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+#date {
+  background-image: url("https://use.fontawesome.com/releases/v5.0.8/svgs/solid/calendar-alt.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+#email {
+  background-image: url("https://use.fontawesome.com/releases/v5.0.8/svgs/solid/envelope-square.svg");
+  background-repeat: no-repeat;
+  background-position: 0 -3px;
+  background-size: 45px;
+}
+
+#address {
+  background-image: url("https://use.fontawesome.com/releases/v5.0.8/svgs/solid/map-marker.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: contain;
+}
+
+#name {
+  background-image: url("https://use.fontawesome.com/releases/v5.0.8/svgs/solid/user-circle.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: contain;
+}
+
+input {
+  text-indent: 70px;
+}
